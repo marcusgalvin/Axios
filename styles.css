@@ -1,0 +1,55 @@
+#container {
+    margin: auto;
+    text-align: center
+}
+
+#btn {
+    width: 70px;
+    margin: auto;
+    text-align: center
+}
+
+#search {
+    border-radius: 50%
+}
+
+#spacer {
+    height: 40px
+}
+
+#h1 {
+    text-align: center;
+    margin: auto
+}
+
+#p {
+    margin: auto
+}
+
+#results {
+    position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+
+}
+
+input[type=text] {
+
+    width: 50px;
+    height: 60px;
+    border: 1px solid #999999;
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('worlds.gif');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    padding: 0px 20px 12px 60px;
+}
